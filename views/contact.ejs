@@ -1,0 +1,27 @@
+<% include header %>
+<section class="container white">
+    <h4>Precisa de nós? Conte um pouco sobre seu problema! Vamos te ajudar!</h4>
+    <form method="POST" action="/send">
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="name" name="name" type="text">
+                <label for="name">Qual o seu nome?</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <textarea name="description" id="description" class="materialize-textarea"></textarea>
+                <label for="description">Qual o seu problema?</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col s12">
+                <button class="btn waves-effect waves-light" type="submit">Enviar
+                    <i class="material-icons right">send</i>
+                </button>
+            </div>
+        </div>
+    </form>
+</section>
+<% include footer %>

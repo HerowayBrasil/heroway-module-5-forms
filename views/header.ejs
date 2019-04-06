@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title><%= title %></title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <div class="container">
+        <a href="/" class="brand-logo"><img src="/images/logo.png" alt="logo" /></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="menu right hide-on-med-and-down">
+          <li><a href="/about">Sobre nós</a></li>
+          <li><a href="/contact">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <ul class="menu sidenav" id="mobile-demo">
+      <li><a href="/about">Sobre nós</a></li>
+      <li><a href="/contact">Contato</a></li>
+  </ul>
